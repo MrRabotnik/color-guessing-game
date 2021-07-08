@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./rgb.png" type="image/x-icon">
+</head>
+<body>
+    <div class="popup_container" id="popup_container">
+        <div class="popup" id="popup">
+            CORRECT!!!
+        </div>
+    </div>
+    <div class="popup_container" id="popup_container_wrong">
+        <div class="popup" id="popup_wrong">
+            INCORRECT!!!
+        </div>
+    </div>
+    <div id="score">Incorrect: 0 - Correct: 0</div>
+    <header>
+        <h1>The RGB Guessing Game</h1>
+        <h2 id="header_rgb">RGB(x, y, z)</h2>
+    </header>
+    <div class="menu">
+        <button id="new_color">New Colors</button>
+        <div>
+            <button id="easy_mode">Easy</button>
+            <button id="hard_mode">Hard</button>
+        </div>
+    </div>
+    <section id="section"></section>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
